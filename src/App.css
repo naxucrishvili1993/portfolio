@@ -1,38 +1,242 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Secular+One&display=swap");
+
+html,
+body {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	background-color: #495579;
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+	color: white;
+	text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+section {
+	padding: 0 5%;
+}
+/* Navbar Section */
+.navbar {
+	align-items: center;
+	background-color: #251749;
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar .left-section .title-name {
+	color: #c58940;
+	font-size: 1.5rem;
+	letter-spacing: 2px;
+	margin: 0;
+}
+.navbar .left-section .title-name a {
+	font-family: "Secular One", sans-serif;
+	color: #faf8f1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar .right-section button {
+	background: none;
+	border: none;
+	cursor: pointer;
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-right: 5px;
+	padding: 7px 8px;
+	transition: 0.15s;
+}
+.navbar .right-section a:hover {
+	color: #263159;
+}
+.navbar .right-section button:hover {
+	background-color: #faf8f1;
+	color: #263159;
+}
+
+.navbar .right-section a button {
+	color: #faf8f1;
+	font-family: "Roboto", sans-serif;
+}
+
+/* Home Section */
+
+#home {
+	height: 100vh;
+}
+
+section#home {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+#home div {
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+#home .home-left-section h1 {
+	font-size: 3rem;
+	width: 90%;
+	margin-bottom: 0;
+}
+
+#home .home-left-section p span {
+	text-decoration: underline;
+}
+
+#home .home-right-section img {
+	width: 300px;
+}
+
+/* Work Section */
+
+#work {
+	padding-top: 50px;
+}
+
+#work .work-experience p a {
+	text-decoration: underline;
+}
+#work .work-experience ul {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	list-style-type: none;
+	padding: 0;
+}
+
+#work .work-experience ul li {
+	display: flex;
+	margin: 0;
+}
+#work .work-experience ul li img {
+	margin-right: 5px;
+	width: 20px;
+}
+
+#work .certifications ul li a {
+	text-decoration: underline;
+}
+
+#work .skills-list li {
+	margin-bottom: 5px;
+}
+#work .projects {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+#work .projects .project {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#work .projects .project .yt-logo {
+	max-width: 400px;
+}
+#work .projects .project img {
+	max-width: 300px;
+	min-width: 250px;
+}
+#work .projects .project h1 {
+	letter-spacing: 1.5px;
+	text-decoration: underline;
+}
+
+/* Footer Section */
+
+#contact {
+	box-sizing: border-box;
+	padding: 0;
+}
+
+footer {
+	background-color: #251749;
+	margin: 0;
+	padding: 20px;
+}
+
+footer ul li img {
+	margin-right: 5px;
+	width: 20px;
+}
+footer ul {
+	margin: 0;
+	padding: 0;
+}
+footer ul li a {
+	text-decoration: underline;
+}
+
+footer .contact-list {
+	align-items: left;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+footer ul li {
+	margin-top: 10px;
+	display: flex;
+}
+
+footer p {
+	color: rgb(195, 195, 195);
+	font-size: 12px;
+	font-style: italic;
+	text-align: center;
+}
+
+@media screen and (min-width: 569px) {
+	.navbar .right-section {
+		margin-right: 20px;
+	}
+	.navbar .left-section {
+		margin-left: 20px;
+	}
+	#work .work-experience ul {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 770px) {
+	#home div {
+		width: 45%;
+	}
+	#work .projects .project img {
+		height: 350px;
+	}
+	#work .projects .project {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 1150px) {
+	#home div {
+		width: 30%;
+	}
+}
+
+@media screen and (min-width: 1400px) {
+	#work .projects .project {
+		width: 30%;
+	}
 }

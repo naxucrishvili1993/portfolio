@@ -67,13 +67,15 @@ const Work = () => {
 								src={FirstPhoto}
 								alt="Project Thumbnail"
 							/>
+						</a>
+						<h1>
 							<a
 								href="https://naxucrishvili1993.github.io/youtube-clone/"
 								target="_blank"
 								rel="noreferrer">
-								<h1>YouTube Clone</h1>
+								YouTube Clone
 							</a>
-						</a>
+						</h1>
 					</div>
 					<div className="project">
 						<a
@@ -82,12 +84,15 @@ const Work = () => {
 							rel="noreferrer">
 							<img src={SecondPhoto} alt="Project Thumbnail" />{" "}
 						</a>
-						<a
-							href="https://naxucrishvili1993.github.io/commerce-app/"
-							target="_blank"
-							rel="noreferrer">
-							<h1>Shopping Cart</h1>
-						</a>
+
+						<h1>
+							<a
+								href="https://naxucrishvili1993.github.io/commerce-app/"
+								target="_blank"
+								rel="noreferrer">
+								Shopping Cart
+							</a>
+						</h1>
 					</div>
 					<div className="project">
 						<a
@@ -95,13 +100,15 @@ const Work = () => {
 							rel="noreferrer"
 							target="_blank">
 							<img src={ThirdPhoto} alt="Project Thumbnail" />
+						</a>
+						<h1>
 							<a
 								href="https://weather-app-react-inky.vercel.app/"
 								rel="noreferrer"
 								target="_blank">
-								<h1>Weather App</h1>
+								Weather App
 							</a>
-						</a>
+						</h1>
 					</div>
 					<div className="project">
 						<a
@@ -109,13 +116,15 @@ const Work = () => {
 							rel="noreferrer"
 							target="_blank">
 							<img src={FourthPhoto} alt="Project Thumbnail" />
+						</a>
+						<h1>
 							<a
 								href="https://naxucrishvili1993.github.io/quiz-app/"
 								rel="noreferrer"
 								target="_blank">
-								<h1>Quiz App</h1>
+								Quiz App
 							</a>
-						</a>
+						</h1>
 					</div>
 					<div className="project">
 						<a
@@ -123,13 +132,15 @@ const Work = () => {
 							rel="noreferrer"
 							target="_blank">
 							<img src={FifthPhoto} alt="Project Thumbnail" />
+						</a>
+						<h1>
 							<a
 								href="https://naxucrishvili1993.github.io/calculator/"
 								rel="noreferrer"
 								target="_blank">
-								<h1>Calculator</h1>
+								Calculator
 							</a>
-						</a>
+						</h1>
 					</div>
 				</div>
 			</div>

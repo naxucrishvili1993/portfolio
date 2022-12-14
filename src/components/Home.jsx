@@ -7,7 +7,7 @@ const Home = () => {
 			<div className="home-left-section">
 				<h1>Hi, I'm Giorgi Nakhutsrishvili</h1>
 				<p>
-					I'm a experienced <span>Junior Front-end Developer</span> with more
+					I'm a <span>Junior Front-end Developer</span> with more
 					than one year of experience, focused on quality and clean code. With a
 					passion for both software development and personal growth, I attended
 					100+ hour bootcamps to learn new technologies and languages.

@@ -12,7 +12,7 @@ const Work = () => {
 		<section id="work">
 			<div data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
 				<div className="work-experience">
-					<h1>Work Experience:</h1>
+					<h2>Work Experience:</h2>
 					<p>
 						Bellboy at{" "}
 						<a href="https://tiflispalace.ge/english/home">
@@ -29,7 +29,7 @@ const Work = () => {
 					</ul>
 				</div>
 				<div className="certifications">
-					<h1>Certifications:</h1>
+					<h2>Certifications:</h2>
 					<ul>
 						<li>
 							Responsive Web Design -{" "}
@@ -46,7 +46,7 @@ const Work = () => {
 					</ul>
 				</div>
 				<div className="skills">
-					<h1>Skills:</h1>
+					<h2>Skills:</h2>
 					<ul className="skills-list">
 						<li>HyperText Markup Language (HTML5)</li>
 						<li>Cascading Style Sheets (CSS3)</li>
@@ -60,16 +60,16 @@ const Work = () => {
 			</div>
 			<div className="projects-section">
 				<div data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-					<h1>Projects:</h1>
+					<h2>Projects:</h2>
 				</div>
 				<div className="projects">
 					<div className="project">
 						<div
 							className="projects-animation-div"
-							data-aos="flip-up"
+							data-aos="zoom-in-up"
 							data-aos-once="false"
 							data-aos-mirror="true"
-							data-aos-duration="5000">
+							data-aos-duration="500">
 							<a
 								href="https://naxucrishvili1993.github.io/youtube-clone/"
 								target="_blank"
@@ -80,20 +80,20 @@ const Work = () => {
 									alt="Project Thumbnail"
 								/>
 							</a>
-							<h1>
+							<h3>
 								<a
 									href="https://naxucrishvili1993.github.io/youtube-clone/"
 									target="_blank"
 									rel="noreferrer">
 									YouTube Clone
 								</a>
-							</h1>
+							</h3>
 						</div>
 					</div>
 					<div className="project">
 						<div
 							className="projects-animation-div"
-							data-aos="flip-up"
+							data-aos="zoom-in-up"
 							data-aos-once="false"
 							data-aos-mirror="true"
 							data-aos-duration="500">
@@ -104,20 +104,20 @@ const Work = () => {
 								<img src={SecondPhoto} alt="Project Thumbnail" />{" "}
 							</a>
 
-							<h1>
+							<h3>
 								<a
 									href="https://naxucrishvili1993.github.io/commerce-app/"
 									target="_blank"
 									rel="noreferrer">
 									Shopping Cart
 								</a>
-							</h1>
+							</h3>
 						</div>
 					</div>
 					<div className="project">
 						<div
 							className="projects-animation-div"
-							data-aos="flip-up"
+							data-aos="zoom-in-up"
 							data-aos-once="false"
 							data-aos-mirror="true"
 							data-aos-duration="500">
@@ -127,20 +127,20 @@ const Work = () => {
 								target="_blank">
 								<img src={ThirdPhoto} alt="Project Thumbnail" />
 							</a>
-							<h1>
+							<h3>
 								<a
 									href="https://weather-app-react-inky.vercel.app/"
 									rel="noreferrer"
 									target="_blank">
 									Weather App
 								</a>
-							</h1>
+							</h3>
 						</div>
 					</div>
 					<div className="project">
 						<div
 							className="projects-animation-div"
-							data-aos="flip-up"
+							data-aos="zoom-in-up"
 							data-aos-once="false"
 							data-aos-mirror="true"
 							data-aos-duration="500">
@@ -150,20 +150,20 @@ const Work = () => {
 								target="_blank">
 								<img src={FourthPhoto} alt="Project Thumbnail" />
 							</a>
-							<h1>
+							<h3>
 								<a
 									href="https://naxucrishvili1993.github.io/quiz-app/"
 									rel="noreferrer"
 									target="_blank">
 									Quiz App
 								</a>
-							</h1>
+							</h3>
 						</div>
 					</div>
 					<div className="project">
 						<div
 							className="projects-animation-div"
-							data-aos="flip-up"
+							data-aos="zoom-in-up"
 							data-aos-once="false"
 							data-aos-mirror="true"
 							data-aos-duration="500">
@@ -173,14 +173,14 @@ const Work = () => {
 								target="_blank">
 								<img src={FifthPhoto} alt="Project Thumbnail" />
 							</a>
-							<h1>
+							<h3>
 								<a
 									href="https://naxucrishvili1993.github.io/calculator/"
 									rel="noreferrer"
 									target="_blank">
 									Calculator
 								</a>
-							</h1>
+							</h3>
 						</div>
 					</div>
 				</div>

@@ -129,16 +129,16 @@ section#home {
 	padding: 0;
 }
 
-#work .work-experience ul li {
+#work .work-experience li {
 	display: flex;
 	margin: 0;
 }
-#work .work-experience ul li img {
+#work .work-experience li img {
 	margin-right: 5px;
 	width: 20px;
 }
 
-#work .certifications ul li a {
+#work .certifications li a {
 	text-decoration: underline;
 }
 
@@ -153,19 +153,20 @@ section#home {
 	text-align: center;
 }
 
-#work .projects .project {
+#work .project {
 	width: 100%;
 	margin-bottom: 20px;
 }
 
-#work .projects .project .yt-logo {
+#work .project .yt-logo {
 	max-width: 400px;
 }
-#work .projects .project img {
+#work .project img {
 	max-width: 300px;
 	min-width: 250px;
 }
-#work .projects .project h1 {
+#work .project h3 {
+	font-size: 1.5rem;
 	letter-spacing: 1.5px;
 	text-decoration: underline;
 }
@@ -239,6 +240,14 @@ footer p {
 	}
 	#home div {
 		width: 45%;
+	}
+
+	#work h2 {
+		font-size: 2rem;
+	}
+	#work li,
+	#work p {
+		font-size: 1.2rem;
 	}
 	#work .projects .project img {
 		height: 350px;

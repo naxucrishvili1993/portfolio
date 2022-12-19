@@ -67,7 +67,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="flip-up"
-							data-aos-once="true"
+							data-aos-once="false"
 							data-aos-duration="5000">
 							<a
 								href="https://naxucrishvili1993.github.io/youtube-clone/"
@@ -93,7 +93,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="flip-up"
-							data-aos-once="true"
+							data-aos-once="false"
 							data-aos-duration="500">
 							<a
 								href="https://naxucrishvili1993.github.io/commerce-app/"
@@ -116,7 +116,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="flip-up"
-							data-aos-once="true"
+							data-aos-once="false"
 							data-aos-duration="500">
 							<a
 								href="https://weather-app-react-inky.vercel.app/"
@@ -138,7 +138,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="flip-up"
-							data-aos-once="true"
+							data-aos-once="false"
 							data-aos-duration="500">
 							<a
 								href="https://naxucrishvili1993.github.io/quiz-app/"
@@ -160,7 +160,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="flip-up"
-							data-aos-once="true"
+							data-aos-once="false"
 							data-aos-duration="500">
 							<a
 								href="https://naxucrishvili1993.github.io/calculator/"

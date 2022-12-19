@@ -67,7 +67,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="zoom-in-up"
-							data-aos-once="false"
+							data-aos-once="true"
 							data-aos-mirror="true"
 							data-aos-duration="500">
 							<a
@@ -94,7 +94,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="zoom-in-up"
-							data-aos-once="false"
+							data-aos-once="true"
 							data-aos-mirror="true"
 							data-aos-duration="500">
 							<a
@@ -118,7 +118,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="zoom-in-up"
-							data-aos-once="false"
+							data-aos-once="true"
 							data-aos-mirror="true"
 							data-aos-duration="500">
 							<a
@@ -141,7 +141,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="zoom-in-up"
-							data-aos-once="false"
+							data-aos-once="true"
 							data-aos-mirror="true"
 							data-aos-duration="500">
 							<a
@@ -164,7 +164,7 @@ const Work = () => {
 						<div
 							className="projects-animation-div"
 							data-aos="zoom-in-up"
-							data-aos-once="false"
+							data-aos-once="true"
 							data-aos-mirror="true"
 							data-aos-duration="500">
 							<a

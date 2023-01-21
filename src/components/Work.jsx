@@ -47,6 +47,7 @@ const Work = () => {
 				<ul className="skills-list">
 					<li>HyperText Markup Language (HTML5)</li>
 					<li>Cascading Style Sheets (CSS3)</li>
+					<li>SASS</li>
 					<li>Bootstrap</li>
 					<li>JavaScript</li>
 					<li>jQuery</li>

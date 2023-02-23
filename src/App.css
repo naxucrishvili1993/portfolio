@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Secular+One&display=swap");
+* {
+	box-sizing: border-box;
+}
 
 html,
 body {
@@ -28,10 +31,10 @@ section {
 	background-color: #251749;
 	display: flex;
 	justify-content: space-between;
+	left: 0;
 	padding: 10px;
 	position: fixed;
 	top: 0;
-	left: 0;
 	width: 100%;
 	z-index: 5;
 }
@@ -81,29 +84,48 @@ section#home {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	margin-top: 20px;
 }
 
 #home div {
 	text-align: left;
 	margin-bottom: 20px;
 }
-
-#home .home-left-section h1 {
-	font-size: 2.5rem;
-	width: 90%;
+#home .home-left-section {
 	margin-bottom: 0;
+	padding-top: 2rem;
+}
+#home .home-left-section h1 {
+	animation: typing 2s steps(30), blink 0.5s infinite;
+	border-right: 3px solid;
+	font-size: 1.5rem;
+	margin-bottom: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	width: 22.3ch;
+}
+@keyframes typing {
+	from {
+		width: 0;
+	}
+}
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
 }
 
 #home .home-left-section p {
-	font-size: 1.1rem;
+	font-size: 1rem;
 }
 #home .home-left-section p span {
 	text-decoration: underline;
 }
 
+#home .home-right-section {
+	margin-bottom: 100px;
+}
 #home .home-right-section img {
-	width: 350px;
+	width: 300px;
 }
 
 .aos-init,
@@ -229,17 +251,17 @@ footer p {
 }
 
 @media screen and (min-width: 770px) {
+	#home .home-left-section {
+		padding-top: 0;
+	}
 	#home .home-left-section h1 {
-		font-size: 2.5rem;
+		font-size: 2rem;
 	}
 	#home .home-left-section p {
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 	}
 	#home .home-right-section img {
-		width: 350px;
-	}
-	#home div {
-		width: 45%;
+		width: 340px;
 	}
 
 	#work h2 {
@@ -256,16 +278,28 @@ footer p {
 		width: 50%;
 	}
 }
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 900px) {
 	#home .home-left-section h1 {
-		width: 100%;
-		font-size: 3.5rem;
+		font-size: 2rem;
 	}
 	#home .home-left-section p {
-		font-size: 1.5rem;
+		font-size: 1.1rem;
+	}
+	#home div {
+		width: 45%;
+	}
+}
+@media screen and (min-width: 1150px) {
+	#home .home-left-section h1 {
+		font-size: 2rem;
+		width: 22.5ch;
+	}
+	#home .home-left-section p {
+		font-size: 1.3rem;
 	}
 	#home .home-right-section img {
-		width: 450px;
+		margin-top: 2rem;
+		width: 350px;
 	}
 	#home div {
 		width: 30%;

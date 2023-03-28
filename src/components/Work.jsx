@@ -52,6 +52,7 @@ const Work = () => {
 					<li>JavaScript</li>
 					<li>jQuery</li>
 					<li>React.js</li>
+					<li>PHP</li>
 					<li>Git</li>
 				</ul>
 			</div>
@@ -62,7 +63,8 @@ const Work = () => {
 						<a
 							href="https://naxucrishvili1993.github.io/youtube-clone/"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							<img
 								className="yt-logo"
 								src={FirstPhoto}
@@ -73,7 +75,8 @@ const Work = () => {
 							<a
 								href="https://naxucrishvili1993.github.io/youtube-clone/"
 								target="_blank"
-								rel="noreferrer">
+								rel="noreferrer"
+							>
 								YouTube Clone
 							</a>
 						</h3>
@@ -82,7 +85,8 @@ const Work = () => {
 						<a
 							href="https://naxucrishvili1993.github.io/commerce-app/"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							<img src={SecondPhoto} alt="Project Thumbnail" />{" "}
 						</a>
 
@@ -90,7 +94,8 @@ const Work = () => {
 							<a
 								href="https://naxucrishvili1993.github.io/commerce-app/"
 								target="_blank"
-								rel="noreferrer">
+								rel="noreferrer"
+							>
 								Shopping Cart
 							</a>
 						</h3>
@@ -99,14 +104,16 @@ const Work = () => {
 						<a
 							href="https://weather-app-react-inky.vercel.app/"
 							rel="noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<img src={ThirdPhoto} alt="Project Thumbnail" />
 						</a>
 						<h3>
 							<a
 								href="https://weather-app-react-inky.vercel.app/"
 								rel="noreferrer"
-								target="_blank">
+								target="_blank"
+							>
 								Weather App
 							</a>
 						</h3>
@@ -115,14 +122,16 @@ const Work = () => {
 						<a
 							href="https://naxucrishvili1993.github.io/quiz-app/"
 							rel="noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<img src={FourthPhoto} alt="Project Thumbnail" />
 						</a>
 						<h3>
 							<a
 								href="https://naxucrishvili1993.github.io/quiz-app/"
 								rel="noreferrer"
-								target="_blank">
+								target="_blank"
+							>
 								Quiz App
 							</a>
 						</h3>
@@ -131,14 +140,16 @@ const Work = () => {
 						<a
 							href="https://naxucrishvili1993.github.io/calculator/"
 							rel="noreferrer"
-							target="_blank">
+							target="_blank"
+						>
 							<img src={FifthPhoto} alt="Project Thumbnail" />
 						</a>
 						<h3>
 							<a
 								href="https://naxucrishvili1993.github.io/calculator/"
 								rel="noreferrer"
-								target="_blank">
+								target="_blank"
+							>
 								Calculator
 							</a>
 						</h3>

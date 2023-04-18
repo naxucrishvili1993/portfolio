@@ -14,14 +14,16 @@ const Footer = (props) => {
 						<a
 							href="https://github.com/naxucrishvili1993"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							{" "}
 							<img src={GitHub} alt="GitHub" />
 						</a>
 						<a
 							href="https://github.com/naxucrishvili1993"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							naxucrishvili1993
 						</a>
 					</li>
@@ -29,31 +31,35 @@ const Footer = (props) => {
 						<a
 							href="https://www.linkedin.com/in/giorginn/"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							<img src={LinkedIn} alt="LinkedIn" />
 						</a>
 						<a
 							href="https://www.linkedin.com/in/giorginn/"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							Giorgi Nakhutsrishvili
 						</a>
 					</li>
 					<li>
 						<img src={Gmail} alt="Gmail" />
-						giorginaxucrishvili70@gmail.com
+						gnakhutsrishvili10@gmail.com
 					</li>
 					<li>
 						<a
 							href="https://discord.com/users/607261983347048449"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							<img src={Discord} alt="Discord" />
 						</a>
 						<a
 							href="https://discord.com/users/607261983347048449"
 							target="_blank"
-							rel="noreferrer">
+							rel="noreferrer"
+						>
 							nxcrius
 						</a>
 					</li>

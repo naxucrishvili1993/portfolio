@@ -53,6 +53,7 @@ const Work = () => {
 					<li>jQuery</li>
 					<li>React.js</li>
 					<li>PHP</li>
+					<li>MySQL</li>
 					<li>Git</li>
 				</ul>
 			</div>
